@@ -5,7 +5,8 @@ import { RxCross1 } from "react-icons/rx";
 
 
 function CartItems() {
-    const {getTotalCartAmount,all_products,CartItems,removeFromCart} = useContext(ShopContext);
+    const {getTotalCartAmount} = useContext(ShopContext);
+    // ,all_products,CartItems,removeFromCart
   return (
     <>
         <div className="cartitems">
